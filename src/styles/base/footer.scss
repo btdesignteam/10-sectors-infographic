@@ -1,0 +1,26 @@
+.footer-container {
+    margin: auto;
+    .footer-sources {
+        @include typography($font-family-body, $font-small, normal, normal, 21px);
+        margin: auto;
+        width: 100%;
+        padding: 150px 15px 30px;
+        @media only screen and (min-width: $desktop) {
+            width: 1024px;
+        }
+
+        @media only screen and (max-width: $tablet - 1) {
+            padding: 0 15px 30px 15px;
+        }
+
+        color: #9b9b9b;
+    }
+
+    .footer-bar {
+        background-color: $primary-black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 12px;
+    }
+}

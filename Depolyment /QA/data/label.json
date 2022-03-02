@@ -1,0 +1,147 @@
+{
+  "totalStory": 10,
+  "swipeMore": "Swipe for more",
+  "close": "Close",
+  "story1": {
+    "title": "Energy",
+    "date": "",
+    "image": "energy.jpg",
+    "caption": "",
+    "story": [
+      "Russia's largest foreign investor, British oil giant BP, took the lead in the mass exodus when it announced on Sunday (Feb 27) that it would exit its near 20 per cent stake in Russian oil company Rosneft.",
+      "The move could result in a US$25 billion write-off and cut its global oil and gas production by a third, but its chairman Helge Lund said Russia's invasion of Ukraine was the \"fundamental change\" that put an end to the 2 energy giants' 30-year business partnership.",
+      "BP has also cancelled all fuel oil loadings from the Russian Black Sea port of Taman, according to Reuters, which cited sources familiar with the matter.",
+      ""
+    ]
+  },
+  "story2": {
+    "title": "Financial institutions",
+    "date": "",
+    "image": "financial-institutions.jpg",
+    "caption": "",
+    "story": [
+      "British bank HSBC has ordered its staff to wind down relations with a host of Russian banks, including the second-largest VTB and development bank VEB, Reuters reported on Monday, citing an internal memo headed \"action required\" and dated Feb 27.",
+      "The memo also signalled that HSBC, the world's leading trade finance bank and Europe's second-largest lender, will also proceed to block entities that are 50 per cent owned or more, directly or indirectly, by blocked individuals, whether or not they are on the sanctions list.",
+      "The development came after the London Stock Exchange suspended VTB unit VTB Capital's membership on Friday. Nasdaq and Intercontinental Exchange's New York Stock Exchange have since halted the trading in stocks of Russia-based companies listed on their exchanges as well.",
+      "Meanwhile, key financiers to commodity trade houses - Switzerland's Credit Suisse Group and France's Societe Generale - have halted the finance of commodities trading from Russia, Bloomberg News reported on Sunday, citing people familiar with the matter.",
+      "Bloomberg also reported that at least 2 of China's largest state-owned banks had curbed such financing as well.",
+      "They include Industrial & Commercial Bank of China's offshore units, which stopped issuing US dollar-dominated letters of credit for purchases of physical Russian commodities ready for export, and Bank of China, which restricted financing based on its own risk assessment.",
+      "Norway's US$1.3 trillion sovereign wealth fund - the world's largest, according to data provider Global SWF - has made its moves too.",
+      "The Norges Bank Investment Management, which had 27 billion Norwegian crowns (S$4.16 billion) invested in Russian equities at the end of 2021, said it is freezing its Russia assets and cracking a plan to divest from the Russian market.",
+      "Following the decision, Australia's US$147 billion sovereign wealth fund, which has about 0.1 per cent of its holdings in companies listed on the Russian Stock Exchange, also announced plans to wind down its exposure to Russian-listed companies.",
+      ""
+    ]
+  },
+  "story3": {
+    "title": "Technology",
+    "date": "",
+    "image": "technology.jpg",
+    "caption": "",
+    "story": [
+      "Russian news outlets reported that both Intel and AMD have suspended chip sales to Russia in compliance with new export restrictions, citing confirmation by the Association of Russian Developers and Electronic Manufacturers.",
+      "Last week, Taiwan Semiconductor Manufacturing Company, which accounts for over 90 per cent of global chip output, had also vowed compliance with all export control rules.",
+      "Meanwhile, internet giants Google, Facebook and YouTube have halted monetisation of Russian state-funded media across their platforms, with the latter two blocking Russian state media from running ads on their platforms as well.",
+      "YouTube also said it would limit recommendations to the same channels and is \"continuing to actively surface authoritative news content\" in Russia- and Ukraine-related search results.",
+      "Twitter has also moved to suspend all advertising in Ukraine and Russia, while Microsoft said it would remove Russian state-owned media outlet RT's mobile apps from its Windows App store and ban ads on Russian state-sponsored media.",
+      ""
+    ]
+  },
+  "story4": {
+    "title": "Professional services",
+    "date": "",
+    "image": "professional-services.jpg",
+    "caption": "",
+    "story": [
+      "McKinsey & Company's global managing partner Bob Sternfels took to LinkedIn on Sunday to announce that the management consultancy company \"will no longer serve any government entity in Russia\". McKinsey, with more than 400 staff and partners in the country, states on its website that it acts for 21 of the 30 biggest Russian companies.",
+      "Also making known his company’s stand on LinkedIn on Sunday was Boston Consulting Group’s chief executive Christoph Schweizer, who said the group “will not take on any work for the government”. He added that the company is \"thoroughly evaluating (its) entire portfolio of work in Russia\".",
+      "Several law firms are also reviewing their operations there, with one of the biggest being Baker McKenzie, which stated on Monday that it is parting ways with several Russian clients in order to comply with sanctions.",
+      "Clients of the Chicago-headquartered firm, which states on its website that it has more than 130 lawyers in its Moscow and St Petersburg offices, include Russia's finance ministry and VTB. US firm Sidley Austin had also dropped VTB as a client last week.",
+      "London-headquartered Linklaters, which established its Moscow office in 1992 and is among the most prominent legal advisors to Russian state-backed companies, meanwhile, said it is reviewing all of its Russia-related work.",
+      ""
+    ]
+  },
+  "story5": {
+    "title": "Logistics",
+    "date": "",
+    "image": "logistics.jpg",
+    "caption": "",
+    "story": [
+      "US' FedEx and United Parcel Service (UPS), two of the world's largest logistics companies, said in online statements on Sunday that they have suspended inbound and outbound services to Ukraine, as well as deliveries to destinations in Russia.",
+      "German logistics company Deutsche Post DHL, meanwhile, said it had temporarily suspended shipments to and from Ukraine and was avoiding Ukrainian airspace for its global operations, although the company did not state if it had amended its operations in Russia.",
+      "Closer to home, Singapore-headquartered container shipping company Ocean Network Express announced in a customer advisory on Monday the suspension of bookings to and from Russia.",
+      "\"Booking acceptance to and from St Petersburg, Russia is suspended with immediate effect until further notice whilst we evaluate the operational feasibility,\" the advisory stated.",
+      "Ocean Network Express also said that it had suspended bookings for the Russian port of Novorossiisk as well as the Ukrainian container port of Odessa.",
+      "Meanwhile, Maersk, which handles roughly 1 in 6 containers shipped worldwide, said in a statement on Monday that it has started making preparations to comply with sanctions.",
+      "Such preparations include a possible suspension of Maersk bookings to and from Russia on ocean and inland, it noted.",
+      ""
+    ]
+  },
+  "story6": {
+    "title": "Aviation and automotive",
+    "date": "",
+    "image": "aviation-and-automotive.jpg",
+    "caption": "",
+    "story": [
+      "Aircraft leasing firms including AerCap, the world's biggest plane lessor with about 5 per cent of its fleet leased to Russian airlines, and BOC Aviation, have said they would terminate hundreds of aircraft leases with Russian carriers due to the sanctions.",
+      "AerCap, which is based in Dublin, has over 2,000 planes in its total portfolio and its Russian clients include Aeroflot, S7 Airlines, Rossiya, Azur Air and Ural Airlines, according to its website.",
+      "Actors among automakers include Germany's Volkswagen, Sweden's Volvo, Britain's Jaguar Land Rover, and US' General Motors and Harley-Davidson, which have halted deliveries of cars or shipments to Russia.",
+      "Separately, Germany's Daimler Truck, one of the world's largest commercial vehicle manufacturers, on Monday announced a suspension of deliveries of truck components to its Russian partner Kamaz. Kamaz is 47 per cent owned by Russian state conglomerate Rostec and supplies parts to Russian military vehicles.",
+      "However, US-based Ford Motor Company, which has a 50 per cent stake in 3 Russian plants, said it wasn't planning to pull out of its joint venture in Russia with Sollers to produce commercial vans just yet.",
+      "\"Our current interest is entirely on the safety and well-being of people in Ukraine and the surrounding region. We won't speculate on business implications,\" the company said in a statement carried on Bloomberg.",
+      ""
+    ]
+  },
+  "story7": {
+    "title": "Sports and entertainment",
+    "date": "",
+    "image": "sports-and-entertainment.jpg",
+    "caption": "",
+    "story": [
+      "World soccer body Fifa has kicked Russia out of the 2022 World Cup, while European authority Uefa has expelled Russian national teams and clubs from all international competitions.",
+      "The announcements on Monday came mere hours after the International Olympic Committee on Monday urged sports federations and organisers to exclude Russian and Belarusian athletes and officials from international events.",
+      "The Badminton World Federation on Monday also heeded to cancel all sanctioned tournaments in Russia and Belarus, and banned them from hosting future badminton tournaments \"until further notice\".",
+      "Rugby's world governing body followed on Tuesday, and declared \"full and immediate suspension\" of Russia and Belarus from all international rugby and cross-border club rugby activities until further notice.",
+      "Meanwhile, 3 major studios Disney, Warner Bros and Sony separately said that they are pausing theatrical movie releases in Russia.",
+      ""
+    ]
+  },
+  "story8": {
+    "title": "Commodities",
+    "date": "",
+    "image": "commodities.jpg",
+    "caption": "",
+    "story": [
+      "Egypt's state grains buyer, the General Authority for Supply Commodities (GASC), which counts Russia and Ukraine as key suppliers, is working to buy wheat from other regions, but it has had to cancel a second wheat tender in 4 days on Monday due to poor participation.",
+      "Grain industry data showed that Russia provided around 50 per cent of Egypt's wheat imports in 2021 and Ukraine 30 per cent. GASC made recent purchases of 360,000 tonnes of Ukrainian wheat, and has also bought Russian wheat which is yet to be delivered.",
+      "Egypt's Supply Minister Ali Moselhy, however, told local TV that wheat contracts with Russia and Ukraine still stood, and that the 2 countries were working to fulfil their contractual obligations. Wheat reserves were sufficient for 4 months, and could stretch to the end of November without new imports once the local harvest was added, he added.",
+      ""
+    ]
+  },
+  "story9": {
+    "title": "Crypto",
+    "date": "",
+    "image": "crypto.jpg",
+    "caption": "",
+    "story": [
+      "In the wake of Russia's invasion, trading volumes in bitcoin using the Russian ruble had surged to the highest level since May, with the bulk of the ruble-bitcoin trades carried out on Binance's crypto exchange.",
+      "After Ukraine called for a block on Russian users at major digital currency platforms, Binance on Monday confirmed that it is blocking the accounts of any Russian clients targeted by sanctions and will ensure that \"all sanctions are met in full\".",
+      "But despite Ukraine's request to target ordinary users as well, Binance expressed that it is \"not going to unilaterally freeze millions of innocent users' accounts\" as it stressed that crypto \"is meant to provide greater financial freedom for people across the globe\".",
+      "\"To unilaterally decide to ban people's access to their crypto would fly in the face of the reason why crypto exists,\" it added. Russia is a major market for Binance. The exchange has over 113,000 members on its Russian-language Telegram channel.",
+      ""
+    ]
+  },
+  "story10": {
+    "title": "Consumer goods",
+    "date": "",
+    "image": "consumer-goods.jpg",
+    "caption": "",
+    "story": [
+      "The situation is not as clear among consumer goods companies.",
+      "French food giant Danone, which runs Russia's largest dairy business and has been operating in Ukraine for more than 20 years, had said before the invasion last week that it was putting additional plans in place to prepare for any military escalation.",
+      "The company, which controls Russian dairy brand Prostokvanhino and gets 6 per cent of its total sales from the country, has since shut 1 of its 2 manufacturing facilities in Ukraine, according to global food industry news outlet Just Food.",
+      "As for Carlsberg, which leads Russia's beer market with over 38 per cent market share through its ownership of Baltika Breweries, a spokesperson has stated that it is currently not possible to estimate the full extent of the direct or indirect consequences from sanctions.",
+      "The majority of Baltika's supply chain, production and customers are based in the country, which limits the direct impact of many sanctions, she said.",
+      ""
+    ]
+  }
+}

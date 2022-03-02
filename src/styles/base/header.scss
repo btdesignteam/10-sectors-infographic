@@ -1,0 +1,122 @@
+.header-container {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+
+    .header-bar {
+        background-color: $primary-black;
+        padding: 15px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media only screen and (max-width: $desktop) {
+            padding: 12px;
+        }
+    }
+
+    .btlogo {
+        width: 310px;
+        cursor: pointer;
+        @media only screen and (max-width: $tablet - 1) {
+            width: 40px;
+        }
+    }
+
+    .share-button-container {
+        display: flex;
+    }
+
+    .fblogo,
+    .twitterlogo,
+    .inlogo {
+        width: 28px;
+        cursor: pointer;
+        @media only screen and (max-width: $tablet - 1) {
+            width: 25px;
+        }
+    }
+
+    .twitterlogo {
+        margin-left: 20px;
+        @media only screen and (max-width: $desktop) {
+            margin-left: 10px;
+        }
+    }
+
+    .inlogo {
+        margin-left: 20px;
+        @media only screen and (max-width: $desktop) {
+            margin-left: 10px;
+        }
+    }
+
+    .budgetlogo {
+        width: 145px;
+        cursor: pointer;
+        @media only screen and (max-width: $phone) {
+            width: 83px;
+        }
+    }
+
+    .header-selection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include typography($font-family-others, $font-small, normal, normal, 16px, 0.03em);
+        width: 100%;
+        margin: auto;
+        padding: 20px 10px;
+
+        @include mq("desktop", "min") {
+            width: 1024px;
+        }
+
+        @media only screen and (max-width: $phone) {
+            padding: 10px 10px 5px;
+        }
+    }
+
+    .mode-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .view-title {
+            color: #9b9b9b;
+        }
+    }
+
+    .mode-button-container {
+        width: 120px;
+        border-radius: 20px;
+        border: 0.5px solid $primary-black;
+        padding: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        cursor: pointer;
+
+        @media only screen and (max-width: $tablet) {
+            width: 65px;
+            padding: 7px;
+            margin-left: 5px;
+        }
+
+        @media only screen and (max-width: 299px) {
+            width: 45px;
+        }
+
+        &:hover {
+            background-color: $primary-black;
+            color: white;
+        }
+    }
+
+    .selected {
+        background-color: $primary-black;
+        color: white;
+    }
+}

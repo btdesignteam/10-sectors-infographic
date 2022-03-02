@@ -1,0 +1,66 @@
+@import "mixin";
+
+// PRIMARY COLORS
+$primary-black: #2b2b2b;
+$primary-darkGrey: #8b8b8b;
+$primary-lightGrey: #cccccc;
+$primary-digitalBlue: #007bad;
+$primary-lightBlue: #80bdd6;
+
+// SECONDARY COLORS
+$secondary-subscriber: #fa9b22;
+$secondary-newsletter: #ffcd02;
+$secondary-asean: #00a3ff;
+$secondary-garage: #44d795;
+$secondary-positiveGreen: #1cc700;
+$secondary-negativeRed: #d30000;
+
+// DIFFERENT TYPE OF GREYS
+$grey-level-1: #f2f2f2;
+$grey-level-2: #cccccc;
+$grey-level-3: #8b8b8b;
+$grey-level-4: #666666;
+
+// FONTS
+$font-family-body: "Public Sans", sans-serif;
+$font-family-others: "Poppins", sans-serif;
+$font-family-others-2: "Libre Caslon Text", serif;
+$font-xsmall: 12px;
+$font-small: 14px;
+$font-medium: 16px;
+$font-large: 20px;
+$font-xlarge: 32px;
+
+// BREAKPOINTS
+$phone: 767px;
+$tablet: 768px;
+$desktop: 970px;
+
+body {
+    @include typography($font-family-body, $font-medium, 300, normal, 20px);
+    color: $primary-black;
+    box-sizing: content-box;
+    background-color: white;
+    overflow-x: hidden ;
+}
+
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+text {
+    @include typography($font-family-body, $font-medium);
+    color: $primary-black;
+    fill: $primary-black;
+
+    @include mq("tablet", "max") {
+        @include typography($font-family-body, $font-small, 400, normal, 16px);
+    }
+}
+
+#budget-infographic {
+    width: 100%;
+    overflow: inherit;
+}

@@ -1,0 +1,154 @@
+.mobile-view-container {
+    @include typography($font-family-body, $font-medium, 300, normal, 20px);
+    // padding: 10px;
+
+    .story-container {
+        padding-bottom: 40px;
+    }
+
+    .story-header-container {
+        display: flex;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .story-header-number {
+        background-color: $grey-level-1;
+        min-width: 41px;
+        max-width: 41px;
+        min-height: 41px;
+        max-height: 41px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include typography($font-family-others, 22px, 300, normal, 20px);
+    }
+
+    .story-header-title {
+        padding-left: 16px;
+        @include typography($font-family-others-2, $font-medium, 600, normal, 20px);
+    }
+
+    .story-img {
+        width: 155px;
+        height: auto;
+        margin: 0 !important;
+    }
+
+    .story-image-container {
+        display: flex;
+        padding-bottom: 10px;
+
+        // @media screen and (max-width: 320px) {
+        //     display: block;
+        // }
+    }
+
+    .story-image-text {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .story-date {
+        @include typography($font-family-others, 10px, normal, normal, 16px);
+        padding-left: 10px;
+        color: #8b8b8b;
+    }
+
+    .story-caption {
+        @include typography($font-family-others, 10px, 500, normal, 14px);
+        color: $grey-level-3;
+        padding-left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 28px;
+
+        @supports (-webkit-line-clamp: 2) {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: initial;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+    }
+
+    .story-body-text-container {
+        height: 300px;
+        column-width: calc(100vw - 20px);
+        // column-gap: 20px;
+        column-fill: balance;
+        overflow: auto;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        overscroll-behavior-x: none;
+        scroll-padding-block: auto;
+    }
+
+    .story-body-text-container::-webkit-scrollbar {
+        /* WebKit */
+        width: 0;
+        height: 0;
+    }
+
+    .story-body-text-container::-webkit-scrollbar {
+        width: 0; /* Remove scrollbar space */
+        background: transparent; /* Optional: just make scrollbar invisible */
+        display: none;
+    }
+
+    .story-body-text {
+        //width: calc(100vw - 20px);
+        scroll-snap-stop: always;
+        scroll-snap-align: end;
+    }
+
+    .story-body-text:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .swipe-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .swipe-container-text {
+            @include typography($font-family-body, 10px, 700, normal, 12px);
+            text-decoration: underline;
+            color: #979797;
+            text-align: right;
+        }
+        img {
+            width: 25px;
+            margin-right: 10px;
+        }
+    }
+
+    .isNotVisbile {
+        opacity: 0;
+    }
+
+    .swipe-pageination-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .swipe-pagination {
+        @include typography($font-family-body, 10px, 700, normal, 12px);
+        color: #979797;
+        width: 28px;
+        text-align: right;
+    }
+
+    p:empty {
+        display: block;
+        visibility: hidden;
+    }
+}

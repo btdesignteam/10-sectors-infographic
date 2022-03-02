@@ -1,0 +1,10 @@
+@import "desktopView";
+@import "mobileView";
+
+.greenText {
+    color: $secondary-positiveGreen;
+}
+
+.redText {
+    color: $secondary-negativeRed;
+}
