@@ -308,6 +308,7 @@ export const DesktopView = ({ isMobile = false, isTablet = false, widthS, height
                     {
                         Array.from({ length: label.totalStory }).map((_, x) => {
                             const num = x + 1 < 10 ? `0${x + 1}` : x + 1;
+                            const isEven = (x + 1) % 2 === 0 ? true : false;
                             return (
                                 <RenderStory
                                     key={x}
@@ -324,6 +325,7 @@ export const DesktopView = ({ isMobile = false, isTablet = false, widthS, height
                                     width={widthS}
                                     handleOnImageClick={() => handleOnImageClick(x + 1)}
                                     desktopView={true}
+                                    isEven={isEven}
                                 />
                             )
                         })

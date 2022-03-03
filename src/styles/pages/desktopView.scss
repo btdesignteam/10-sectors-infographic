@@ -32,22 +32,21 @@
 
     .story-img {
         width: 200px;
+        max-width: 200px !important;
         height: auto;
     }
 
     .story-image-container {
-        display: flex;
+        // display: flex;
         padding-bottom: 10px;
-
-        // @media screen and (max-width: 320px) {
-        //     display: block;
-        // }
+        // width: 200px;
     }
 
     .story-image-text {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        width: 200px;
     }
 
     .story-date {
@@ -59,19 +58,37 @@
     .story-caption {
         @include typography($font-family-others, 10px, 500, normal, 14px);
         color: $grey-level-3;
-        padding-left: 10px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        height: 28px;
+        white-space: pre-wrap;
+        text-align: center;
+        padding-top: 10px;
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+        // height: 28px;
+        // padding-left: 10px;
 
-        @supports (-webkit-line-clamp: 2) {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: initial;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
+        // @supports (-webkit-line-clamp: 2) {
+        //     overflow: hidden;
+        //     text-overflow: ellipsis;
+        //     white-space: initial;
+        //     display: -webkit-box;
+        //     -webkit-line-clamp: 2;
+        //     -webkit-box-orient: vertical;
+        // }
+    }
+
+    .isEvenContainer .story-body-container {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .story-image-container {
+            padding-left: 20px;
+        }
+    }
+
+    .isOddContainer .story-body-container {
+        display: flex;
+        .story-image-container {
+            padding-right: 20px;
         }
     }
 

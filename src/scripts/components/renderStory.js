@@ -13,7 +13,8 @@ const RenderStory = ({
     setScrollPage,
     width,
     handleOnImageClick,
-    desktopView
+    desktopView,
+    isEven
 }) => {
     const [totalPage, setTotalPage] = useState(0)
     const handleSetScrollLeft = (e) => {
@@ -59,9 +60,10 @@ const RenderStory = ({
         handleOnImageClick()
     }
 
+    const isEvenC = isEven ? "isEvenContainer" : "isOddContainer"
     return (
         <div>
-            <div className="story-container" id={`story-container-${number}`}>
+            <div className={`story-container ${isEvenC}`} id={`story-container-${number}`}>
                 <div className="story-header-container">
                     <div className="story-header-number">{number}</div>
                     <div className="story-header-title" dangerouslySetInnerHTML={{ __html: label[id]["title"].replace('</br>', '') }} />

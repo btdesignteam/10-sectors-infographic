@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bt_files/graphs/2022/top-10-sectors-infographic/static/css/main.e7c37f41.css",
-    "main.js": "/bt_files/graphs/2022/top-10-sectors-infographic/static/js/main.112d205c.js",
+    "main.css": "/bt_files/graphs/2022/top-10-sectors-infographic/static/css/main.a9126251.css",
+    "main.js": "/bt_files/graphs/2022/top-10-sectors-infographic/static/js/main.64d2c599.js",
     "index.html": "/bt_files/graphs/2022/top-10-sectors-infographic/index.html",
-    "main.e7c37f41.css.map": "/bt_files/graphs/2022/top-10-sectors-infographic/static/css/main.e7c37f41.css.map",
-    "main.112d205c.js.map": "/bt_files/graphs/2022/top-10-sectors-infographic/static/js/main.112d205c.js.map"
+    "main.a9126251.css.map": "/bt_files/graphs/2022/top-10-sectors-infographic/static/css/main.a9126251.css.map",
+    "main.64d2c599.js.map": "/bt_files/graphs/2022/top-10-sectors-infographic/static/js/main.64d2c599.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c37f41.css",
-    "static/js/main.112d205c.js"
+    "static/css/main.a9126251.css",
+    "static/js/main.64d2c599.js"
   ]
 }
