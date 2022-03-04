@@ -40,7 +40,7 @@ body {
     @include typography($font-family-body, $font-medium, 300, normal, 20px);
     color: $primary-black;
     box-sizing: content-box;
-    background-color: white;
+    // background-color: white;
     overflow-x: hidden ;
 }
 
