@@ -16,6 +16,10 @@ export default function App() {
     path = "/"
   }
 
+  if (window.location.hostname === "devstaff.businesstimes.com.sg") {
+    path = "https://dev.businesstimes.com.sg/bt_files/graphs/2022/top-10-sectors-infographic/"
+  }
+  
   if (window.location.hostname === "btstaff.businesstimes.com.sg" || window.location.hostname === "www.businesstimes.com.sg" || window.location.hostname === "businesstimes.com.sg") {
     path = "/bt_files/interactives/2022/top-10-sectors-infographic/";
   }

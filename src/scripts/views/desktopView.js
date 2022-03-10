@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { InitialDataContext } from "../context/initalData";
-import { Modal } from 'react-bootstrap';
 
 import RenderStory from "../components/renderStory";
 
@@ -298,7 +297,22 @@ export const DesktopView = ({ isMobile = false, isTablet = false, widthS, height
     const handleOnImageClick = (e) => {
         setWhichStoryImgClick(e);
         setShow(true)
+        document.querySelector("body").style.overflow = "hidden"
     }
+
+    const handleOnClose = (e) => {
+        if (e.target.className === "popup-container isShow") {
+            setShow(false);
+            document.querySelector("body").style.overflow = "auto"
+        }
+
+        if (e.target.className === "popup-close-img") {
+            setShow(false);
+            document.querySelector("body").style.overflow = "auto"
+        }
+
+    }
+    const isShow = show ? "isShow" : "isHide";
 
     return (
         <div className="desktop-view-container">
@@ -332,18 +346,19 @@ export const DesktopView = ({ isMobile = false, isTablet = false, widthS, height
                     }
 
 
-
-                    < Modal animation={false} show={show} fullscreen={true} onHide={() => setShow(false)} restoreFocus={true}>
-                        <Modal.Body>
+                    <div className={`popup-background ${isShow}`}></div>
+                    <div className={`popup-container ${isShow}`} onClick={(e) => handleOnClose(e)}>
+                        <div className="popup-body">
                             <div className="body-container">
-                                <div className="modal-close-button" onClick={() => setShow(false)}>
-                                    <img className="modal-close-img" src={`${path}images/crossButton.png`} alt={`crossButton`} />
+                                <div className="popup-close-button" >
+                                    <img className="popup-close-img" src={`${path}images/crossButton.png`} alt={`crossButton`} onClick={(e) => handleOnClose(e)} />
                                 </div>
-                                <img className="modal-story-img" src={`${path}images/${label[`story${whichStoryImgClick}`].image}`} alt={`img1`} />
-                                <div className="modal-story-caption" dangerouslySetInnerHTML={{ __html: label[`story${whichStoryImgClick}`].caption }} />
+                                <img className="popup-story-img" src={`${path}images/${label[`story${whichStoryImgClick}`].image}`} alt={`img1`} />
+                                <div className="popup-story-caption" dangerouslySetInnerHTML={{ __html: label[`story${whichStoryImgClick}`].caption }} />
                             </div>
-                        </Modal.Body>
-                    </Modal>
+                        </div>
+                    </div>
+
 
                 </>
             }
