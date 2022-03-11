@@ -16,14 +16,19 @@ export default function App() {
     path = "/"
   }
 
+  if (window.location.hostname === "devstaff.businesstimes.com.sg" || window.location.hostname === "dev.businesstimes.com.sg") {
+    path = "https://s3-bt-drupal-dev.s3-ap-southeast-1.amazonaws.com/bt_files/graphs/2022/top-10-sectors-infographic/"
+  }
+
   if (window.location.hostname === "btstaff.businesstimes.com.sg" || window.location.hostname === "www.businesstimes.com.sg" || window.location.hostname === "businesstimes.com.sg") {
     path = "/bt_files/interactives/2022/top-10-sectors-infographic/";
   }
 
   const getData = () => {
     const url = `${path}data/label.json?${new Date().getTime()}`
-    fetch(url
-      , {
+    fetch(url,
+      {
+        method: 'GET',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
