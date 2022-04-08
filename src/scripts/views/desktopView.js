@@ -295,9 +295,9 @@ export const DesktopView = ({ isMobile = false, isTablet = false, widthS, height
     }
 
     const handleOnImageClick = (e) => {
-        setWhichStoryImgClick(e);
-        setShow(true)
-        document.querySelector("body").style.overflow = "hidden"
+        // setWhichStoryImgClick(e);
+        // setShow(true)
+        // document.querySelector("body").style.overflow = "hidden"
     }
 
     const handleOnClose = (e) => {
@@ -346,7 +346,7 @@ export const DesktopView = ({ isMobile = false, isTablet = false, widthS, height
                     }
 
 
-                    <div className={`popup-background ${isShow}`}></div>
+                    {/* <div className={`popup-background ${isShow}`}></div>
                     <div className={`popup-container ${isShow}`} onClick={(e) => handleOnClose(e)}>
                         <div className="popup-body">
                             <div className="body-container">
@@ -357,7 +357,7 @@ export const DesktopView = ({ isMobile = false, isTablet = false, widthS, height
                                 <div className="popup-story-caption" dangerouslySetInnerHTML={{ __html: label[`story${whichStoryImgClick}`].caption }} />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
                 </>

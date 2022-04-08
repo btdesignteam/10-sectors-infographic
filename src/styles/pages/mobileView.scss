@@ -61,19 +61,19 @@
         @include typography($font-family-others, 10px, 500, normal, 14px);
         color: $grey-level-3;
         padding-left: 10px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        height: 28px;
+        //white-space: nowrap;
+        //overflow: hidden;
+        //text-overflow: ellipsis;
+        //height: 28px;
 
-        @supports (-webkit-line-clamp: 2) {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: initial;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-        }
+        // @supports (-webkit-line-clamp: 2) {
+        //     overflow: hidden;
+        //     text-overflow: ellipsis;
+        //     white-space: initial;
+        //     display: -webkit-box;
+        //     -webkit-line-clamp: 2;
+        //     -webkit-box-orient: vertical;
+        // }
     }
 
     .story-body-text-container {
