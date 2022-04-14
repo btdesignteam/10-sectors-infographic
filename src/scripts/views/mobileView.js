@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { InitialDataContext } from "../context/initalData";
 
-import RenderStory from "../components/renderStory";
+import RenderStoryMobile from "../components/renderStoryMobile";
 
 export const MobileView = ({ isMobile = false, isTablet = false, widthS, height, path, isDesktop = true }) => {
     const dataContext = useContext(InitialDataContext);
@@ -323,7 +323,7 @@ export const MobileView = ({ isMobile = false, isTablet = false, widthS, height,
                         Array.from({ length: label.totalStory }).map((_, x) => {
                             const num = x + 1 < 10 ? `0${x + 1}` : x + 1;
                             return (
-                                <RenderStory
+                                <RenderStoryMobile
                                     key={x}
                                     id={`story${x + 1}`}
                                     label={label}
