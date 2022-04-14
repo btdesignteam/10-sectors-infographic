@@ -30,7 +30,7 @@ export default function App() {
       {
         method: 'GET',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'text/plain',
           'Accept': 'application/json'
         }
       }
@@ -71,14 +71,15 @@ export default function App() {
     return size;
   };
 
-
+  const isMobileDevice = /Mobi/i.test(window.navigator.userAgent)
   const [width, height] = useWindowSize();
-  const isMobile = width < 769
-  const isTablet = width > 767 && width < 970;
+  const isMobile = width < 600 && isMobileDevice
+  const isTablet = width > 600 && width < 970;
   const isDesktop = width > 970;
   // const isMobile = width <= parseInt(size.mobile.max.slice(0, -2), 10) ? true : false;
   // const isTablet = width >= parseInt(size.tablet.min.slice(0, -2), 10) && width <= parseInt(size.tablet.max.slice(0, -2), 10) ? true : false;
   // const isDesktop = width >= parseInt(size.desktop.min.slice(0, -2), 10) ? true : false;
+
 
   return (
     <InitialDataContext.Provider value={{ label }}>
